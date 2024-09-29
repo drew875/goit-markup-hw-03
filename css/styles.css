@@ -15,24 +15,14 @@ p {
     margin: 0;
 }
 
-
-.head-nav {
-    border-bottom: 1px solid #e7e9fc;
-}
-
-ul {
-    flex-direction: row;
-    margin: 0;
-    padding-left: 0;
+.container {
+    width: 1158px;
 }
 
 img {
     display: block;
 }
 
-.conteiner {
-    display: flex;
-}
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -46,6 +36,12 @@ img {
 
 }
 
+
+
+.adress-list {
+    display: flex;
+}
+
 span {
     color: #2e2f42;
 }
@@ -54,6 +50,7 @@ address {
 
     font-style: normal;
 }
+
 
 .bground {
 
