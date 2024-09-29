@@ -113,7 +113,7 @@ a:hover {
 }
 
 .h-one {
-
+    max-width: 496px;
     line-height: 1.07;
 }
 
@@ -153,7 +153,7 @@ h1 {
 
 
 .section-one {
-
+    padding: 188px 0;
     background-color: rgba(46, 47, 66, 1);
 }
 
