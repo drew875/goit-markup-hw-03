@@ -4,6 +4,36 @@ body {
     color: #434455;
 }
 
+* h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    padding: 0;
+    margin: 0;
+}
+
+
+.head-nav {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+ul {
+    flex-direction: row;
+    margin: 0;
+    padding-left: 0;
+}
+
+img {
+    display: block;
+}
+
+.conteiner {
+    display: flex;
+}
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -21,10 +51,12 @@ span {
 }
 
 address {
+
     font-style: normal;
 }
 
 .bground {
+
     background-color: #FFFFFF;
 }
 
@@ -224,4 +256,9 @@ button:hover {
 
 footer {
     background-color: rgba(46, 47, 66, 1);
+}
+
+.foot {
+    padding: 100px 0;
+
 }
