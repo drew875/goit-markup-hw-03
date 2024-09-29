@@ -17,6 +17,8 @@ p {
 
 .container {
     width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 img {
@@ -25,6 +27,7 @@ img {
 
 
 .logo {
+    margin-right: 76px;
     display: inline-block;
     margin-bottom: 16px;
     font-family: "Raleway", sans-serif;
@@ -44,6 +47,18 @@ img {
 .menunav,
 .foot {
     display: flex;
+}
+
+.head-nav {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.menu {
+    align-items: center;
+}
+
+.menunav {
+    gap: 40px;
 }
 
 .adress-list {
