@@ -25,7 +25,7 @@ img {
 
 
 .logo {
-    display: inline-block;
+
     margin-bottom: 16px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -41,7 +41,8 @@ img {
 .head-nav,
 .container,
 .menu,
-.menunav {
+.menunav,
+.foot {
     display: flex;
 }
 
@@ -76,7 +77,8 @@ address {
 }
 
 a {
-    display: flex;
+
+    display: inline-block;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
