@@ -28,7 +28,6 @@ img {
 
 .logo {
     margin-right: 76px;
-    display: inline-block;
     margin-bottom: 16px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -177,6 +176,7 @@ h1 {
 
 .section-three {
     background-color: #F4F4FD;
+    padding: 120px 0;
 
 }
 
@@ -187,9 +187,15 @@ h1 {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
+}
 
+.team-members-list {
+    display: flex;
+    gap: 24px;
 
 }
+
 
 .sp-col {
     color: #f4f4fd;
