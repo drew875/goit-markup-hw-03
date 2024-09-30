@@ -40,6 +40,10 @@ img {
 
 }
 
+.logo-footer {
+    display: inline-block;
+}
+
 .head-nav,
 .container,
 .menu,
