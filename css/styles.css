@@ -62,7 +62,7 @@ img {
 }
 
 .adress-list {
-    margin-right: 0;
+    gap: 40px;
     display: flex;
 }
 
@@ -83,6 +83,7 @@ address {
 }
 
 .contacts {
+    padding: 24px 0;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
