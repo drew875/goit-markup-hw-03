@@ -6,9 +6,11 @@ h5,
 h6,
 p,
 ul,
-li {
+li,
+footer {
     padding: 0;
     margin: 0;
+    padding-left: 0;
 
 
 }
