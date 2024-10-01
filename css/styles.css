@@ -195,7 +195,7 @@ h1 {
 }
 
 .section-two-content-li {
-    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 3);
 }
 
 .section-three {
@@ -236,7 +236,7 @@ h1 {
 }
 
 .section-four-content {
-    width: calc((100% - 48px) / 3);
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .prod-text {
