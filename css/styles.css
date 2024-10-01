@@ -7,7 +7,8 @@ h6,
 p,
 ul,
 li,
-footer {
+footer,
+img {
     padding: 0;
     margin: 0;
     padding-left: 0;
@@ -243,8 +244,7 @@ h1 {
 }
 
 .section-four-content {
-
-    flex-basis: calc((100% - 48px) / 3);
+    width: calc((100% - 48px) / 3);
 }
 
 .prod-text {
