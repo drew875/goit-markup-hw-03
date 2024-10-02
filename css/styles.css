@@ -43,7 +43,8 @@ img {
 }
 
 .header-container,
-.adress-fl {
+.adress-fl,
+.menu {
     display: flex;
     align-items: center;
 }
