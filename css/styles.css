@@ -20,7 +20,7 @@ img {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
-    
+
 }
 
 img {
@@ -42,10 +42,10 @@ img {
 
 }
 
-.container-header 
-.menu
-.menunav{
+.header-container,
+.adress-fl {
     display: flex;
+    align-items: center;
 }
 
 .head-nav {
