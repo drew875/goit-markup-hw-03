@@ -42,11 +42,7 @@ img {
 
 }
 
-.head-nav,
-.container,
-.menu,
-.menunav,
-footer {
+.container-header {
     display: flex;
 }
 
