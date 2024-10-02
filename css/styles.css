@@ -44,7 +44,8 @@ img {
 
 .header-container,
 .adress-fl,
-.menu {
+.menu,
+.menunav {
     display: flex;
     align-items: center;
 }
