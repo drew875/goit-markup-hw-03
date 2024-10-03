@@ -30,7 +30,6 @@ img {
 
 .logo {
     margin-right: 76px;
-    margin-bottom: 16px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -55,6 +54,7 @@ img {
 }
 
 .menu {
+    margin-right: auto;
     align-items: center;
 }
 
@@ -68,7 +68,6 @@ img {
 }
 
 span {
-    display: flex;
     color: #2e2f42;
 }
 
@@ -94,11 +93,16 @@ address {
     color: #404bbf;
 }
 
+ul {
+    list-style: none;
+}
+
 a {
     text-decoration: none;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
+    display: block;
 }
 
 a:hover {
@@ -115,8 +119,11 @@ a:hover {
 }
 
 .h-one {
+    margin: 0 auto;
     max-width: 496px;
     line-height: 1.07;
+    margin-bottom: 48px;
+
 }
 
 .section-two-view {
@@ -345,7 +352,7 @@ button {
     letter-spacing: 0.04em;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-
+    margin: 0 auto;
     background: var(--IRIS, #4D5AE5);
 
     color: white;
@@ -363,6 +370,7 @@ button:hover {
 }
 
 .btn {
+    align-content: ;
     display: block;
     min-width: 169px;
     height: 56px;
@@ -372,6 +380,10 @@ button:hover {
 
 footer {
     background-color: rgba(46, 47, 66, 1);
+}
+
+.footer-text {
+    max-width: 264px;
 }
 
 .foot {
